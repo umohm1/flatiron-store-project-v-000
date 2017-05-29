@@ -1,0 +1,6 @@
+<%= form_for @line_item do |f| %>
+  <%= f.hidden_field :item %>
+  <%= f.hidden_field :cart %>
+  <%= f.number_field :quantity %>
+  <%= f.submit "" %>
+<% end %>

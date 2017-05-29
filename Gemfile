@@ -8,6 +8,7 @@ gem 'devise'
 gem 'jquery-rails'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
+gem 'bcrypt'
 
 group :test, :development do
   gem "rspec-rails"
@@ -15,7 +16,7 @@ group :test, :development do
   gem "launchy"
   gem "rack_session_access"
   gem "selenium-webdriver"
-  gem "better_errors"
+  #gem "better_errors"
   gem "binding_of_caller"
   gem "factory_girl_rails"
   gem "simplecov"
